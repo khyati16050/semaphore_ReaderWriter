@@ -1,0 +1,39 @@
+
+Step 1: Components You Need
+Hardware:
+Arduino UNO Rev3
+I/O Expansion Shield for Arduino
+Heart Rate Sensor
+ESP8266 WiFi Bee
+Software or online services:
+Arduino IDE
+Thingspeak API
+
+
+
+ESP8266 WiFi Bee
+
+Wifi Bee-ESP8266 is a Serial-to-WIFI module using XBEE design in a compact size, compatible with XBEE slot, applicable to a variety of 3.3V single-chip system. It can be used for Arduino, wireless data transfer, remote control. On-board switch can be used to easily select the Startup module or Upgrade firmware. ESP8266 arduino module has a powerful on-chip processing and storage capacity, built-in 32-bit processor, built-in Lwip protocol stack. Support AP+STA mode co-exist.
+
+Heart Rate Sensor Module
+
+The DFRobot heart rate sensor is a thumb-sized heart rate monitor designed for Arduino microcontrollers.
+
+This heart rate monitor sensor is a pulse sensor which is developed based on PPG techniques. This is a simple and low-cost optical technique that can be used to detect blood volume changing in the microvascular bed of tissues. It is relatively easy to detect the pulsatile component of the cardiac cycle according to this theory.
+
+The sensor has two holes that you can use to attach to your belt. You can wrap on your finger, wrist, earlobe or other areas where it has contact with your skin.
+
+I/O Expansion Shield
+
+To connect these components with the Arduino, we need the expansion shield which can connect them with the microcontroller with ease.
+
+Connections
+Stack the I/O Expansion Shield on the Arduino UNO.
+Take the Heart Rate Sensor Module and put the strap through the holes in the modules so that you can wrap on your finger, wrist, earlobe or other areas where it has contact with your skin.
+Connect the Heart Rate Sensor Module to A1 pin on the analog headers on the expansion shield. Mind the colors of headers to the wires, that is, red to red, etc.
+In the Wifi Bee slot on the shield, put the ESP8266 WiFi Bee
+Wrap the strap around your finger or wrist.
+Now, upload the sketch for testing the module for the first time.
+Open serial plotter and wait for 5 seconds and stay calm.You will see the graph of the heart beats.
+Try to block the blood flow through using another hand.
+The graph line will become straight for some time and will come to normal stage as the blood finds way for circulation if all the capillaries aren't blocked properly.
